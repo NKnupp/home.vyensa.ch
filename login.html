@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interner Bereich</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vyensa</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="login.html">VYENSA Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="loginPage">
+        <div class="container">
+            <h2>Anmeldung</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Benutzername" required><br>
+                <input type="password" id="password" placeholder="Passwort" required><br>
+                <button type="submit">Anmelden</button>
+                <p id="errorMessage" class="error"></p>
+            </form>
+        </div>
+    </div>
+
+    <div id="internalArea" style="display: none;">
+        <div class="container">
+            <h2>Interner Bereich</h2>
+            <p>Willkommen im internen Bereich!</p>
+            <!-- Hier können Sie den Inhalt des internen Bereichs platzieren -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "users": [
+      { "name": "vince", "password": "vyensa" },
+      { "name": "yve", "password": "vyensa" },
+      { "name": "enea", "password": "vyensa" },
+      { "name": "nevio", "password": "vyensa" },
+      { "name": "stephanie", "password": "vyensa" },
+      { "name": "andy", "password": "vyensa" }
+    ]
+  }
+  
